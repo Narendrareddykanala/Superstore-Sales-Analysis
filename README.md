@@ -1,9 +1,9 @@
 # Superstore-Sales-Analysis
 Cleaned and analysed 51,290 retail order lines (2011 to 2014) with Python to find what drives sales and profit across markets, products and discount levels.
 ## Dataset
-- Source: [https://www.kaggle.com/datasets/laibaanwer/superstore-sales-dataset]
+-Source: [SuperStore Sales Dataset on Kaggle](https://www.kaggle.com/datasets/laibaanwer/superstore-sales-dataset)
 - 51,290 rows and 21 columns (25 after feature engineering), covering 2011 to 2014
-- Dataset license: [https://www.gnu.org/licenses/lgpl-3.0.html]
+-  Dataset license: [GNU LGPL 3.0](https://www.gnu.org/licenses/lgpl-3.0.html)
 - Code license: MIT
 
 ## Steps
