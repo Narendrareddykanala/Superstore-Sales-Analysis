@@ -1,7 +1,7 @@
 # Superstore-Sales-Analysis
 Cleaned and analysed 51,290 retail order lines (2011 to 2014) with Python to find what drives sales and profit across markets, products and discount levels.
 ## Dataset
--Source: [SuperStore Sales Dataset on Kaggle](https://www.kaggle.com/datasets/laibaanwer/superstore-sales-dataset)
+- Source: [SuperStore Sales Dataset on Kaggle](https://www.kaggle.com/datasets/laibaanwer/superstore-sales-dataset)
 - 51,290 rows and 21 columns (25 after feature engineering), covering 2011 to 2014
 -  Dataset license: [GNU LGPL 3.0](https://www.gnu.org/licenses/lgpl-3.0.html)
 - Code license: MIT
@@ -29,5 +29,28 @@ Cleaned and analysed 51,290 retail order lines (2011 to 2014) with Python to fin
 3. Sales are seasonal: Q4 brings 34% of sales, with December the peak (1.58M) and February the lowest (0.54M).
 4. APAC, EU and US supply about 70% of total sales (28%, 23% and 18%).
 5. Revenue is spread widely: the top 20% of customers (159 of 795) bring about 30% of sales.
+6. 
    ## Tools
 Python, Pandas, Matplotlib, Seaborn, Jupyter Notebook
+
+## Charts
+
+**profit by discount level **
+
+<img src="ProfitbyDiscountLevel.png" width="700">
+
+**Correlation between key business metrics**
+
+<img src="CorrelationBetweenKeyBusinessMetrics.png" width="700">
+
+**Total sales by market**
+
+<img src="Total%20Sales%20by%20Market.png" width="700">
+
+**Total profit by sub-category**
+
+<img src="Total%20profit%20by%20sub-category%20(1).png" width="700">
+
+**Sales growth 2011 to 2014 (%) by sub-category**
+
+<img src="Sales%20growth%202011%20to%202014%20(%25)%20by%20sub-category.png" width="700">
