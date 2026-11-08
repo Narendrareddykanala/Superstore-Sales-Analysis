@@ -29,3 +29,5 @@ Cleaned and analysed 51,290 retail order lines (2011 to 2014) with Python to fin
 3. Sales are seasonal: Q4 brings 34% of sales, with December the peak (1.58M) and February the lowest (0.54M).
 4. APAC, EU and US supply about 70% of total sales (28%, 23% and 18%).
 5. Revenue is spread widely: the top 20% of customers (159 of 795) bring about 30% of sales.
+   ## Tools
+Python, Pandas, Matplotlib, Seaborn, Jupyter Notebook
