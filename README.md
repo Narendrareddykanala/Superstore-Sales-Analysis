@@ -33,28 +33,48 @@ Cleaned and analysed 51,290 retail order lines (2011 to 2014) with Python to fin
    ## Tools
 Python, Pandas, Matplotlib, Seaborn, Jupyter Notebook
 
-## Charts
 
+ ## Charts (Ranked by Business Impact)
 
-1. **Profit by Discount Level**
-   *Biggest margin leak: discounts above 40% make almost every order unprofitable.*
-   ![Profit by Discount Level](profit_by_discount.png)
+### 1. Profit by Discount Level
+*Biggest margin leak: discounts above 40% make almost every order unprofitable.*
 
-2. **Total Sales by Month (Q4 Highlighted)**
-   *Seasonality: Q4 drives 34% of total revenue, peaking in December ($1.58M).*
-   ![Total Sales by Month](monthly_sales_q4.png)
+![Profit by Discount Level](ProfitbyDiscountLevel.png)
 
-3. **Total Sales by Market**
-   *Regional share: APAC, EU, and US generate ~70% of total sales.*
-   ![Total Sales by Market](sales_by_market.png)
+---
 
-4. **Customer Concentration (Pareto Curve)**
-   *Customer risk: Top 20% of customers account for ~30% of sales, showing healthy revenue spread.*
-   ![Customer Concentration](customer_concentration.png)
+### 2. Total Sales by Month (Q4 Highlighted)
+*Seasonality: Q4 drives 34% of total revenue, peaking in December ($1.58M).*
 
-5. **Sales Growth 2011 to 2014 (%) by Sub-Category**
-   *Long-term momentum: tracks 4-year growth rates across product lines.*
-   ![Sales Growth by Sub-Category](sales_growth_subcategory.png)
+![Total Sales by Month](Total%20sales%20by%20month.png)
+
+---
+
+### 3. Total Sales by Market
+*Regional share: APAC, EU, and US generate ~70% of total sales.*
+
+![Total Sales by Market](sales_by_market.png)
+
+---
+
+### 4. Customer Concentration (Pareto Curve)
+*Customer risk: Top 20% of customers account for ~30% of sales, showing healthy revenue spread.*
+
+![Customer Concentration](customer_concentration.png)
+
+---
+
+### 5. Sales Growth 2011 to 2014 (%) by Sub-Category
+*Long-term momentum: tracks 4-year growth rates across product lines.*
+
+![Sales Growth by Sub-Category](profit_vs_growth.png)
+
+---
+
+### 6. Correlation Between Key Business Metrics
+*Metric relationships: confirms the negative correlation between discount and profit.*
+
+![Correlation Heatmap](CorrelationBetweenKeyBusinessMetrics.png)
 
 6. **Correlation Between Key Business Metrics**
    *Metric relationships: confirms the negative correlation between discount and profit.*
