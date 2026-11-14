@@ -76,6 +76,4 @@ Python, Pandas, Matplotlib, Seaborn, Jupyter Notebook
 
 ![Correlation Heatmap](CorrelationBetweenKeyBusinessMetrics.png)
 
-6. **Correlation Between Key Business Metrics**
-   *Metric relationships: confirms the negative correlation between discount and profit.*
-   ![Correlation Heatmap](correlation_heatmap.png)
+
