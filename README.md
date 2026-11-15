@@ -36,8 +36,42 @@ Python, Pandas, Matplotlib, Seaborn, Jupyter Notebook
 
  ## Charts (Ranked by Business Impact)
 
+### 1. Profit by Discount Level
+*Biggest margin leak: discounts above 40% make almost every order unprofitable.*
+
+![Profit by Discount Level](Charts/profit_by_discount.png)
+
+---
+
+### 2. Total Sales by Month (Q4 Highlighted)
+*Seasonality: Q4 drives 34% of total revenue, peaking in December ($1.58M).*
+
 ![Total Sales by Month](<Charts/Total sales by month.png>)
+
+---
+
+### 3. Total Sales by Market
+*Regional share: APAC, EU, and US generate ~70% of total sales.*
+
 ![Total Sales by Market](Charts/sales_by_market.png)
+
+---
+
+### 4. Customer Concentration (Pareto Curve)
+*Customer risk: Top 20% of customers account for ~30% of sales, showing healthy revenue spread.*
+
 ![Customer Concentration](Charts/customer_concentration.png)
-![Sales Growth by Sub-Category](<Charts/Sub-Category Profit vs. Sales Growth (2011–2014).png>)
+
+---
+
+### 5. Sub-Category Profit vs. Sales Growth (2011 to 2014)
+*Long-term momentum: Copiers lead on both profit and growth, while Tables is the only sub-category losing money.*
+
+![Sub-Category Profit vs. Sales Growth](<Charts/Sub-Category Profit vs. Sales Growth (2011–2014).png>)
+
+---
+
+### 6. Correlation Between Key Business Metrics
+*Metric relationships: confirms the negative correlation between discount and profit.*
+
 ![Correlation Heatmap](Charts/CorrelationBetweenKeyBusinessMetrics.png)
